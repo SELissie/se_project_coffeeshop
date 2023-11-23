@@ -177,6 +177,9 @@
 }
 
 .form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .form__label {
@@ -198,11 +201,10 @@
 .form__input {
   display: block;
   width: 100%;
-  padding: 0;
+  padding-left: 18px;
   box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
-  text-indent: 18px;
 }
 
 input::placeholder {
