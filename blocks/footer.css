@@ -22,6 +22,7 @@
   font-weight: bold;
   margin: 0 0 20px;
   font-size: inherit;
+  line-height: inherit;
 }
 
 .footer__list {
