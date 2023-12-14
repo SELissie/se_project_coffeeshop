@@ -5,11 +5,14 @@
   background-position: center;
   background-color: #fff;
   padding: 30px 80px 40px;
+  box-sizing: border-box;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  position: relative;
 }
 
 .header__title {
@@ -24,7 +27,7 @@
 
 .header__description {
   max-width: 683px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
@@ -36,11 +39,12 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -50,6 +54,7 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
+  align-items: end;
   margin-top: auto;
   font-weight: 500;
   color: #838383;
