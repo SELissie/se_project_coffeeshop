@@ -25,6 +25,7 @@
 }
 
 .about__title {
+  font-family: Inter, Arial, sans-serif;
   max-width: 251px;
   margin: 0;
   font-weight: 500;

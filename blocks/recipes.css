@@ -9,6 +9,7 @@
 }
 
 .recipes__title {
+  font-family: Inter, Arial, sans-serif;
   max-width: 580px;
   font-weight: 500;
   font-size: 44px;
@@ -38,6 +39,7 @@
 
 .recipes__video-caption {
   display: flex;
+  font-family: Inter, Arial, sans-serif;
   justify-content: space-between;
   margin: 24px 0 0;
   font-weight: 500;

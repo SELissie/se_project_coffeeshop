@@ -9,6 +9,7 @@
 }
 
 .form__label {
+  font-family: Inter, Arial, sans-serif;
   display: block;
   margin-bottom: 32px;
   font-weight: 500;
@@ -32,12 +33,14 @@
 }
 
 input::placeholder {
+  font-family: Inter, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
 }
 
 .form__button {
+  font-family: Inter, Arial, sans-serif;
   width: 100%;
   padding: 0;
   margin-bottom: 32px;
