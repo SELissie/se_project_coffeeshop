@@ -14,3 +14,8 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 Some options to improve the project would be to add some more interactive modes to the page, an order ahead option, or an AI chat bot to request same day availability.
+
+## Project Link
+
+To view the project please access the link below
+  - https://selissie.github.io/se_project_coffeeshop/
